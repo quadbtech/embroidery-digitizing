@@ -1,0 +1,170 @@
+@font-face {
+    font-family: europhonic;
+    src: url(../fonts/Europhonic.otf);
+}
+.font-europhonic {
+    font-family: europhonic;
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+.font-roboto-medium {
+    font-family: roboto-medium;
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.font-roboto-regular {
+    font-family: roboto-regular;
+}
+
+
+
+
+
+
+/* header css */
+
+.header-text{
+    text-align: center;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 29px;
+    line-height: 33px;
+    font-family: europhonic;
+}
+
+body{
+    /* background-color: #2C1F43; */
+}
+
+.header-pages-text{
+    text-align: center;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 17px;
+    line-height: 26px;
+    font-family: roboto-medium;
+    /* font: Medium 20px/26px Roboto; */
+}
+
+.header-ul{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo-header{
+    width: 20%;
+    margin-right: 5px;
+}
+
+#desktop-navbar{
+/*    background: transparent linear-gradient(87deg, #4B09C0 0%, #FA21FD 100%) 0% 0% no-repeat padding-box;*/
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    opacity: 0.75;
+    z-index: 9;
+}
+#mobile-navbar{
+/*    background: transparent linear-gradient(87deg, #4B09C0 0%, #FA21FD 100%) 0% 0% no-repeat padding-box;*/
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    opacity: 0.75;
+    z-index: 9;
+}
+#mobile-cross{
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    background: #202020 0% 0% no-repeat padding-box;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#drawer{
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-name: slideLeft;
+    animation-name: slideLeft;
+}
+@-webkit-keyframes slideLeft {
+    0% {margin-left: -100%;}
+    100% {margin-left: 0%;}
+}
+ 
+@keyframes slideLeft {
+    0% {margin-left: -100%;}
+    100% {margin-left: 0%;}
+}
+
+
+/* css for para and header tags */
+.para-roboto{
+    text-align: center;
+    font-size: 30px;
+    line-height: 37px;
+    font-family: roboto-regular;
+    letter-spacing: 0;
+    opacity: 1;
+    margin: 0px;
+}
+
+.heading-europhonic{
+    text-align: center;
+    font-size: 84px;
+    line-height: 96px;
+    font-family: europhonic;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    opacity: 1;
+    margin: 0px;
+}
+
+/* icons why svg */
+.why-svg{
+    height: 150px;
+    opacity: 1;
+}
+
+
+/* footer */
+
+.footer-text-heading{
+    text-align: center;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: europhonic;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.footer-text{
+    text-align: left;
+    font-size: 16px;
+    line-height: 19px;
+    font-family: roboto-regular;
+    font-weight: bold;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+
+
+
